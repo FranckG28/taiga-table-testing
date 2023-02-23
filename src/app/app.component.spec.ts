@@ -30,7 +30,7 @@ describe('AppComponent', () => {
 
   });
 
-  it('should render title', () => {
+  it('should render table content', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
